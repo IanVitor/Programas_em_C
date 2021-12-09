@@ -6,7 +6,7 @@ void main()
 	setlocale(LC_ALL, "");
 	int N, c;
 	
-	printf("Qual o número da tabuada:");
+	printf("Qual o nÃºmero da tabuada:");
 	scanf("%i", &N);
 
 	for(c=0;c<10;c++)
