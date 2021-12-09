@@ -8,10 +8,10 @@ int main()
 	char texto[QTD];
 	int c=0;
 	
-	printf("Digite um texto de até 30 palavras:");
+	printf("Digite um texto de atÃ© 30 palavras:");
 	scanf("%[^\n]s", &texto[c]);
 	
-	printf("Palavra ao contrário: ");
+	printf("Palavra ao contrÃ¡rio: ");
 	
 	for(c=QTD;c>=0;c--)
 	{
