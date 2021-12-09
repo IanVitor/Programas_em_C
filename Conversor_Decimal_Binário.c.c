@@ -7,7 +7,7 @@ void main()
 	int N, valor, aux, c=0;
 	int resultado[10];
 	
-	printf("Digite um número decimal:");
+	printf("Digite um nÃºmero decimal:");
 	scanf("%i", &N);
 
 	while(N>0)
@@ -24,7 +24,7 @@ void main()
 		c+= 1;
 	}
 	aux = c-1;
-	printf("\nValor em binário: ");
+	printf("\nValor em binÃ¡rio: ");
 	for(c=aux;c>=0;c--)
 	{
 		printf("%i",resultado[c]);
