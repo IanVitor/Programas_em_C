@@ -6,11 +6,11 @@ void main()
 	setlocale(LC_ALL, "");
 	int Numero, c, aux, Resultado=1;
 	
-	printf("Digite um número inteiro e positivo:");
+	printf("Digite um nÃºmero inteiro e positivo:");
 	scanf("%i", &Numero);
 	aux = Numero;
 	
-	printf("\nO fatorial de %i é:", Numero);
+	printf("\nO fatorial de %i Ã©:", Numero);
 	
 	if(Numero == 1 || Numero == 0)
 	{
