@@ -10,15 +10,15 @@ typedef struct
 	char Hora[6];
 }entrada;
 
-//FunÁ„o para solicitar os dados do usu·rio.
+//Fun√ß√£o para solicitar os dados do usu√°rio.
 entrada ObterDadosDaVaga(int c)
 {
 	entrada Dados;
-	printf("Qual È a placa do carro %i:", c+1);
+	printf("Qual √© a placa do carro %i:", c+1);
 	gets(Dados.PlacaCarro);
-	printf("Qual È a marca do carro %i:", c+1);
+	printf("Qual √© a marca do carro %i:", c+1);
 	gets(Dados.Marca);
-	printf("Qual È a hora de entrada:");
+	printf("Qual √© a hora de entrada:");
 	gets(Dados.Hora);
 	return Dados;
 }
@@ -29,14 +29,14 @@ int main()
 	entrada Vagas[QTD];
 	int c;
 	
-	//LaÁo para preencher o vetor Vagas.
+	//La√ßo para preencher o vetor Vagas.
 	for(c=0;c<QTD;c++)
 	{
 		Vagas[c] = ObterDadosDaVaga(c);
 		printf("\n");
 	}
 
-	//LaÁo para mostrar os dados coletados.
+	//La√ßo para mostrar os dados coletados.
 	for(c=0;c<QTD;c++)
 	{
 		printf("\nCarro %i->", c+1);
