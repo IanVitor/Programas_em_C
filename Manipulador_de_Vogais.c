@@ -8,16 +8,16 @@ void main()
 	int i;
 	
 	//Imput da frase
-	printf("Digite uma palavra de até 30 letras:\n");
+	printf("Digite uma palavra de atÃ© 30 letras:\n");
 	scanf("%[^\n]s", &palavra);
 	
-	//Laço para ler o vetor
+	//LaÃ§o para ler o vetor
 	for(i=0;i<31;i++)
 	{
-		//Alterar as maiuscúlas para não dar erro
+		//Alterar as maiuscÃºlas para nÃ£o dar erro
 		palavra[i] = tolower(palavra[i]);
 		
-		//Condição para separar as vogais
+		//CondiÃ§Ã£o para separar as vogais
 		if(palavra[i]=='a' || palavra[i]=='e'|| palavra[i]=='i'|| palavra[i]=='o'|| palavra[i]=='u')
 		{
 			printf("?");
